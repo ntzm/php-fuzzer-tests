@@ -1,0 +1,6 @@
+{
+    "require": {
+        "nikic/php-fuzzer": "^0.0.4",
+        "doctrine/orm": "^2.7"
+    }
+}
