@@ -1,6 +1,6 @@
 {
     "require": {
-        "league/uri": "^6.0",
+        "league/uri": "@dev",
         "nikic/php-fuzzer": "^0.0.4"
     }
 }

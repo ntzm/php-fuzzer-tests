@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5cf380657cdbe8ea25da39cd7d570ff3",
+    "content-hash": "90057e96de04cde3dea7e994c0fd9b58",
     "packages": [
         {
             "name": "league/uri",
-            "version": "6.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri.git",
-                "reference": "cf488ec34faa3b5c600659c8fc18d67c4752a5cb"
+                "reference": "25df9ab5d7d2dad11c532c3d51d7365d6e95441a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri/zipball/cf488ec34faa3b5c600659c8fc18d67c4752a5cb",
-                "reference": "cf488ec34faa3b5c600659c8fc18d67c4752a5cb",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/25df9ab5d7d2dad11c532c3d51d7365d6e95441a",
+                "reference": "25df9ab5d7d2dad11c532c3d51d7365d6e95441a",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,7 @@
                 "url",
                 "ws"
             ],
-            "time": "2019-11-23T20:59:00+00:00"
+            "time": "2020-01-15T08:56:21+00:00"
         },
         {
             "name": "league/uri-interfaces",
@@ -377,7 +377,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "league/uri": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
