@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09fae9197ae35bf2c6ddfd30e8f58e80",
+    "content-hash": "f20a434e292a03c4428e7f192ba7a618",
     "packages": [
         {
             "name": "nikic/include-interceptor",
@@ -199,16 +199,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "847661e77afa48d99ecfa508e8b60f0b029a19c0"
+                "reference": "dc344b7df891c9359076eb038f5984510f7fcee4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/847661e77afa48d99ecfa508e8b60f0b029a19c0",
-                "reference": "847661e77afa48d99ecfa508e8b60f0b029a19c0",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/dc344b7df891c9359076eb038f5984510f7fcee4",
+                "reference": "dc344b7df891c9359076eb038f5984510f7fcee4",
                 "shasum": ""
             },
             "require": {
@@ -224,10 +224,13 @@
             "suggest": {
                 "symfony/console": "For validating YAML files using the lint command"
             },
+            "bin": [
+                "Resources/bin/yaml-lint"
+            ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.0-dev"
+                    "dev-master": "5.1-dev"
                 }
             },
             "autoload": {
@@ -254,7 +257,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-12-10T11:06:55+00:00"
+            "time": "2020-01-11T18:51:52+00:00"
         },
         {
             "name": "ulrichsg/getopt-php",
@@ -306,7 +309,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "symfony/yaml": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

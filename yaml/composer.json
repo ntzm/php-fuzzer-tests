@@ -1,6 +1,6 @@
 {
     "require": {
         "nikic/php-fuzzer": "^0.0.4",
-        "symfony/yaml": "^5.0"
+        "symfony/yaml": "@dev"
     }
 }
