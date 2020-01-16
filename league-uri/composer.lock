@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/uri.git",
-                "reference": "25df9ab5d7d2dad11c532c3d51d7365d6e95441a"
+                "reference": "a7d9260a50a94c95c15dfb5e8573bc11ad65e39d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri/zipball/25df9ab5d7d2dad11c532c3d51d7365d6e95441a",
-                "reference": "25df9ab5d7d2dad11c532c3d51d7365d6e95441a",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/a7d9260a50a94c95c15dfb5e8573bc11ad65e39d",
+                "reference": "a7d9260a50a94c95c15dfb5e8573bc11ad65e39d",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,7 @@
                 "url",
                 "ws"
             ],
-            "time": "2020-01-15T08:56:21+00:00"
+            "time": "2020-01-16T04:12:46+00:00"
         },
         {
             "name": "league/uri-interfaces",
